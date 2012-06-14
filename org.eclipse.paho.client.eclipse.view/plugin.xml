@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.views">
+    	<view id="org.eclipse.paho.client.eclipse.view.mqttclientview"
+			name="Eclipse Paho Client View"
+			class="org.eclipse.paho.client.eclipse.view.MqttClientView"
+			icon="icons/eurotech.gif"/>
+	</extension>
+</plugin>
